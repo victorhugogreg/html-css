@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'chug';
+    src: url('fonts/BLOBBYCHUG.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'chug','Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+
+
+
+
+
+
+
+  /*
+    Tipos de format()
+    -opentype (otf)
+    -truetype (ttf)
+    -embedded-opentype
+    -truetype-aat (Apple Advanced Typography)
+    -sbg
+    */

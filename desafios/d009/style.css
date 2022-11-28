@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor0: #3D3937;
+    --cor1: #474140;
+    --cor2: #303030;
+    --cor4: #474044;
+    --cor5: #3D373D;
+
+
+}
+header{
+    background-color: var(--cor2);
+    margin: auto;
+    padding: 30px;
+}
+header h1{
+    color: white;
+    text-shadow: 1px 1px 20px white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header p{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 20px white;
+}
+nav{
+    
+    padding: 10px;
+    margin: auto;
+    margin-bottom: -30px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav a:hover{
+    background-color: var(--cor4);
+    color:crimson;
+}
+main{
+    background-color: var(--cor1);
+    margin: auto;
+    min-width: 280px;
+    max-width: 720px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p{
+    text-align: center;
+}
+main a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+main a:hover{
+    text-decoration: underline;
+    background-color: #303030;
+    font-weight: bold;
+}
+div.video{
+    background-color: #303030;
+    position: relative;
+    padding-bottom: 59%;
+    margin: -20px -20px 30px -20px;
+    padding-top: -20px;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+div.show{
+    columns: 2;
+    margin: auto;
+    padding: 10px;
+}
+.box{
+    max-width: 350px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+}
+div.show > a:hover{
+    background-color: transparent;
+}
+.voltar{
+    max-width: 75px;
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: var(--cor2);
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -40px;
+}
